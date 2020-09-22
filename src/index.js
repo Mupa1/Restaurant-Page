@@ -1,3 +1,5 @@
+import render from './render';
+
 const content = document.querySelector('#content');
 
-content.innerHTML = 'testing';
+content.appendChild(render());
