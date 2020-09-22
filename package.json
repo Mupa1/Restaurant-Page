@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "This project is about DOM manipulation by dynamically rendering a simple restaurant homepage using Javascript alone to generate its entire content.",
   "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {},
   "devDependencies": {
     "eslint": "^6.8.0",
@@ -11,10 +16,9 @@
     "stylelint": "^13.3.3",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-csstree-validator": "^1.8.0",
-    "stylelint-scss": "^3.17.2"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "stylelint-scss": "^3.17.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
   },
   "repository": {
     "type": "git",
