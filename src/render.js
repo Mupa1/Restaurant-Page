@@ -1,6 +1,7 @@
 import './styles.css';
 import homePage from './home';
 import contactPage from './contact';
+import menuPage from './menu';
 
 const render = () => {
   const element = document.createElement('div');
@@ -19,6 +20,7 @@ const render = () => {
   const display = element.querySelector('.display');
   const home = element.querySelector('#home');
   const contact = element.querySelector('#contact');
+  const menu = element.querySelector('#menu');
 
   display.appendChild(homePage());
 
@@ -30,6 +32,11 @@ const render = () => {
   contact.addEventListener('click', () => {
     display.innerHTML = '';
     display.appendChild(contactPage());
+  });
+
+  menu.addEventListener('click', () => {
+    display.innerHTML = '';
+    display.appendChild(menuPage());
   });
 
   return element;

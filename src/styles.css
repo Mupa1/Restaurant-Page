@@ -10,6 +10,7 @@ body {
 .cover {
   height: 100vh;
   background: url('./images/cover-img.jpg') no-repeat;
+  background-size: cover;
 }
 
 .nav-bar {
@@ -26,6 +27,10 @@ body {
   font-weight: 700;
   border-bottom: 2px solid orange;
   cursor: pointer;
+}
+
+.nav-bar li:hover {
+  color: orange;
 }
 
 .home-h1,
@@ -55,6 +60,17 @@ h1 {
 
 .contact-h4 {
   padding-top: 5%;
+}
+
+.menu-item img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 @media only screen and (max-width: 320px) {
