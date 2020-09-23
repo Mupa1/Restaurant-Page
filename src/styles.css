@@ -27,3 +27,14 @@ body {
   border-bottom: 2px solid orange;
   cursor: pointer;
 }
+
+h1,
+h3 {
+  color: #fff;
+  padding: 0 10px;
+}
+
+h1 {
+  font-size: 250%;
+  padding-top: 10%;
+}
