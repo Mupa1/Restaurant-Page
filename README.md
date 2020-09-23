@@ -17,6 +17,13 @@ To get a copy up and running follow these simple example steps:-
 - cd into the Restaurant-Page directory and navigate into the dist directory.
 - Run index.html in a browser.
 
+To make changes
+- Run `npm install` to install dependancies.
+- Open Restaurant-Page directory in you favorite editor.
+- Navigate to src folder to make any changes.
+- To preview changes live, use npm run dev from your terminal then run index.hmtl in the browser.
+- When you finish your changes, run npm run build to create the production files to the dist folder.
+
 ## Automated Test
  > No automated tests yet for this project.
 
