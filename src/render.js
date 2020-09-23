@@ -1,5 +1,6 @@
 import './styles.css';
 import homePage from './home';
+import contactPage from './contact';
 
 const render = () => {
   const element = document.createElement('div');
@@ -17,12 +18,18 @@ const render = () => {
   `;
   const display = element.querySelector('.display');
   const home = element.querySelector('#home');
+  const contact = element.querySelector('#contact');
 
   display.appendChild(homePage());
 
   home.addEventListener('click', () => {
     display.innerHTML = '';
     display.appendChild(homePage());
+  });
+
+  contact.addEventListener('click', () => {
+    display.innerHTML = '';
+    display.appendChild(contactPage());
   });
 
   return element;

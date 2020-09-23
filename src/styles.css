@@ -28,13 +28,39 @@ body {
   cursor: pointer;
 }
 
-h1,
-h3 {
+.home-h1,
+.home-h3 {
   color: #fff;
   padding: 0 10px;
 }
 
+.home-h1 {
+  padding-top: 10%;
+}
+
 h1 {
   font-size: 250%;
-  padding-top: 10%;
+}
+
+.container {
+  width: 80%;
+  height: auto;
+  margin: 10% auto;
+  background-color: #fff;
+  color: #555;
+  text-align: center;
+  border: 2px solid orange;
+  box-shadow: 1px 1px 7px 8px orange;
+}
+
+.contact-h4 {
+  padding-top: 5%;
+}
+
+@media only screen and (max-width: 320px) {
+  .nav-bar li {
+    padding: 15px 10px 3px 10px;
+    margin: 0 10px;
+    font-size: 1.2em;
+  }
 }
